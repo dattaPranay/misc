@@ -8,7 +8,7 @@ using namespace std;
 int *bit;  
 
 int getParent(int x) {
-	return x - (x & (-x));
+	return x - (x & (-x));  
 }
 void treeUtil(int*arr, int n, int * bit) {
 
