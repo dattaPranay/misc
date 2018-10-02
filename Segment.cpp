@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-int findSeg(int* segt, int qlow, int qhigh, int low, int high, int pos) {
+int findSeg(int* segt, int qlow, int qhigh, int low, int high, int pos) {  
 
 	if (qlow <= low && qhigh >= high) return segt[pos];
 	if (qlow > high || qhigh < low) return 999999;
