@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int *bit;
+int *bit;  
 
 int getParent(int x) {
 	return x - (x & (-x));
